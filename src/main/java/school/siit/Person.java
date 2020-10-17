@@ -1,12 +1,20 @@
 package school.siit;
 
+import java.util.List;
 import java.util.Objects;
 
 public class Person {
     private String name;
     private Integer age;
+    List<Hobby> hobbies;
 
-    public Person(String name, Integer age) {
+    public Person(String name, Integer age, List<Hobby> hobbies) {
+        this.name = name;
+        this.age = age;
+        this.hobbies = hobbies;
+    }
+
+    public Person(String name, Integer age){
         this.name = name;
         this.age = age;
     }

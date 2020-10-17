@@ -12,4 +12,16 @@ public class Hobby {
         this.frequency = frequency;
         this.addresses = addresses;
     }
+
+    public String getNameOfHobby() {
+        return nameOfHobby;
+    }
+
+    public int getFrequency() {
+        return frequency;
+    }
+
+    public List<Address> getAddresses() {
+        return addresses;
+    }
 }
